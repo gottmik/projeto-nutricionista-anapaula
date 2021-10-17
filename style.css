@@ -17,7 +17,7 @@ html {
 header {
   width: 100%;
   height: 13vh;
-  background-color: rgb(141, 140, 140);
+  background-color: #e4dfda;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +25,7 @@ header {
   border: none;
 }
 .container-header {
-  background-color: #4df3ca65;
+  background-color: white;
   display: flex;
   flex-direction: row;
   width: 87%;
@@ -34,69 +34,84 @@ header {
   align-items: center;
   margin: 40px;
 }
-.conteudo-header {
-  margin-left: 3%;
-  margin-right: 3%;
-}
-.conteudo-header a {
-  color: white;
-}
-.item-1{
-flex-grow: 1;
 
+.conteudo-header a {
+  color: black;
+}
+.item-1 {
+  flex: 0.33;
+  margin-left: 35px;
 }
 .item-2 a {
-  margin: 6px;
-  flex-grow: 3;
-  
+  margin: 15px;
+  flex: 0.33;
+  font-weight: bold;
 }
-.item-3{
-    background-color: rgb(71, 255, 126);
-    border-radius: 40px;
-    padding: 20px;
-    padding-right:25px;
-    border: white;
-    border: 5px;
-    flex-grow: 1;
-    text-align: center;
-    
- 
+.item-3 {
+  flex: 0.33;
+  background-color: rgb(71, 255, 126);
+  border-radius: 40px;
+  padding: 20px;
+  padding-right: 25px;
+  border: white;
+  border: 5px;
+  text-align: center;
+}
+.item-3 a {
+  color: white;
+  font-weight: bold;
 }
 /* ============================================================================== */
 /* ================================================================ MAIN ======== */
 /* ============================================================================== */
 .main-main {
   display: flex;
-  
+
   justify-content: space-between;
- 
-  background-image: linear-gradient(rgb(141, 140, 140),rgb(182, 179, 179))
+
+  background-color: #e4dfda;
 }
 .main-conteudo {
   background-color: none;
 }
 .m-cont1 {
-  flex-grow:1;
+  flex-grow: 1;
   text-align: right;
   align-self: center;
-  
-  font-size: 1.5rem;
-  
+  font-size: 1.9rem;
+  margin: 10%;
   margin-right: 0;
-  color: white;
+  color: #c1666b;
+  line-height: 40px;
 }
 .m-cont2 {
   flex-grow: 2;
-  
- 
-  
 }
-.m-cont2 img{
+.m-cont2 img {
   align-self: flex-end;
   width: 600px;
 }
+/* =============================================  waves  ======================== */
 
-.svgs{
-
+.main-svg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
-
+.main-svg2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  
+}
+/* ============================================================================== */
+/* ============================================================= SECTION 1 ====== */
+/* ============================================================================== */
+.exames {
+  
+  
+  height: 600px;
+}
+container-section1{
+  background-color: #c1666b;
+}
